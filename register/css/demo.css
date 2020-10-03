@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:900|Fira+Sans:900|Lora:700|Merriweather:900');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/* shared */
+
+body section#coidea {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    height: 100vh;
+    overflow: hidden;
+    padding: 10px;
+}
+
+body section#coidea .grid {
+    position: relative;
+    display: block;
+    width: 100%;
+    width: calc( 100% - 64px);
+    max-width: 992px;
+    /* height: auto; */
+    margin: 0 auto;
+    padding: 128px 32px 32px;
+    overflow: hidden;
+}
+
+body section#coidea .grid .grid-item {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    height: 100vh;
+    overflow: hidden;
+    padding: 32px 0;
+}
+
+body section#coidea .grid .grid-item .image {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    /* overflow: hidden; */
+    float: left;
+}
+
+body section#coidea .grid .grid-item .image img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    /* overflow: hidden; */
+}
+
+body section#coidea .grid .grid-item .content {
+    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    top: -10px;
+    height: auto;
+    padding-left: 380px;
+    /* overflow: hidden; */
+    float: left;
+}
+
+body section#coidea .grid .grid-item .content .register {
+    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    top: 130px;
+    height: auto;
+    padding-left: 180px;
+    /* overflow: hidden; */
+    float: left;
+}
+
+body section#coidea .grid .grid-item .content h2 {
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    opacity: 0;
+}
+
+
+/* effect-first */
+
+body section#coidea.effect-1st {
+    background: rgb(46, 45, 45);
+    font-family: 'Merriweather', serif;
+}
+
+body section#coidea.effect-1st .grid .grid-item .image .overlay {
+    background-color: rgb(46, 45, 45);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+body section#coidea.effect-1st .grid .grid-item .content h2 {
+    font-size: 64px;
+    /* padding-top: 0px; */
+    color: #F8F8F8;
+    text-shadow: 0px 7px 15px #121212;
+}
+
+body section#coidea.effect-1st .grid .grid-item .content input {
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 12px;
+}
